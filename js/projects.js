@@ -15,6 +15,13 @@ var projects = [
 	style: "height:350px; width:350px; border:none"
 },
 {
+	title: "Scavengers",
+	info: "Multiplayer game on iOS which involves physically walking around until you reach a pre-determined waypoint in your area and gain points. Can be played in multiplayer mode where each player have to find eachother. Built with objective-C and NodeJS.",
+	image: "assets/scavengers.png",
+	github: "https://github.com/michaelchum/scavengers-ios",
+	style: "height:350px; width:350px; border:none"
+},
+{
 	title: "Sudoku Speed Solver",
 	info: "Extremely quick sudoku solver implemented in Java. Solves the hardest 3x3 grids at a maximum of 30ms! Can also solve 4x4 and 5x5 grids. The algorithm involves backtracking and heuristics optimized for speed.",
 	image: "assets/sudoku.png",
@@ -27,13 +34,6 @@ var projects = [
 	info: "NXT Mindstorm robot capable of playing a basket-ball-like game one versus one. Has an accuracy of 90% and achieved second position in terms of scoring at McGill's Design Principles and Method Robotics competition. Built using the LeJOS framework in Java.",
 	image: "assets/bazooka.png",
 	github: "https://github.com/michaelchum/BaZooka"
-},
-{
-	title: "Scavengers",
-	info: "Multiplayer game on iOS which involves physically walking around until you reach a pre-determined waypoint in your area and gain points. Can be played in multiplayer mode where each player have to find eachother. Built with objective-C and NodeJS.",
-	image: "assets/scavengers.png",
-	github: "https://github.com/michaelchum/scavengers-ios",
-	style: "height:350px; width:350px; border:none"
 },];
 
 var projectSection = document.getElementById('projects');
