@@ -1,5 +1,12 @@
 var projects = [
 {
+	title: "HackChat",
+	info: "Clean and intuitive instant chat system which allows users to simultaneously share code with syntax highlighting. Built with NodeJS, Express, Socket.io and MongoDB.",
+	image: "assets/hackchat.png",
+	link: "http://hackchat.info",
+	github: "https://github.com/michaelchum/mchacks"
+},
+{
 	title: "Shows Alert",
 	info: "Webapp which lets you subscribe to the latest T.V. shows. Whenever a new episode is available, you will get notified by e-mail and/or SMS. Built with Django.",
 	image: "assets/showsalert.png",
